@@ -1,0 +1,53 @@
+.Input input[type="text"] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    flex: 1;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.input-group input:last-child {
+    margin-right: 0;
+}
+
+.form-container button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #0e0b0b;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    color: #ffff;
+    background-color: #7f00ff;
+    padding-top: 20px;
+}
